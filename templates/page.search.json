@@ -1,0 +1,2007 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "79ed8a3e-7dbf-4c96-9469-24021a4de560": {
+      "type": "custom-header",
+      "settings": {
+        "enable_sticky_header": false,
+        "logo_max_width": 140,
+        "mobile_logo_max_width": 100,
+        "navigation_menu": "247_quick_menu",
+        "sidebar_navigation_menu": "",
+        "header_layout": "logo_left_navigation_inline",
+        "show_icons": false,
+        "reduce_desktop_padding": false,
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "enable_transparent_header": false,
+        "transparent_header_text_color": "#ffffff",
+        "search_menu": ""
+      }
+    },
+    "aac79dfb-00e5-4992-ac13-4c5e9b16fee3": {
+      "type": "custom-image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/search-banner.png",
+        "subheading": "",
+        "title": "こだわりで探す",
+        "content": "<p>ブラ & ショーツ<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#f7f4ed",
+        "overlay_opacity": 0
+      }
+    },
+    "ab11f8e7-2eb7-4073-a5ba-86bf7c09d967": {
+      "type": "custom-search-list",
+      "blocks": {
+        "template--16252385820812__ab11f8e7-2eb7-4073-a5ba-86bf7c09d967-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "ブラタイプ",
+            "link_url": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16252385820812__ab11f8e7-2eb7-4073-a5ba-86bf7c09d967-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "サイズ",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16252385820812__ab11f8e7-2eb7-4073-a5ba-86bf7c09d967-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "デザイン",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "44f0fd30-da32-45de-a8bb-b0672609b85b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "カラー",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "4b937d3f-be20-4a8b-a68b-65194f1f89e3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "柄",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "7c645b1a-9d5b-4e8f-bd4c-3b3339a40525": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "価格",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1537c5c1-1af0-44a9-93b4-6f3cffb6d906": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "素材",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "5290a32d-9298-40c2-b556-5d9e89e1c3a1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "モデル別",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "dc75b49e-63f7-4e20-91ed-d95d396bc4d8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "特徴",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "989a47ae-007c-4787-832b-bc42cef80b01": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "ショーツ別",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a2d8a7bb-3ff1-4c3e-a323-7266d4720a84": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "パッド別",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "e58b3a8d-8491-4604-b57c-d30bd7c394f1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "ブランド別",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__ab11f8e7-2eb7-4073-a5ba-86bf7c09d967-collection-1",
+        "template--16252385820812__ab11f8e7-2eb7-4073-a5ba-86bf7c09d967-collection-2",
+        "template--16252385820812__ab11f8e7-2eb7-4073-a5ba-86bf7c09d967-collection-3",
+        "44f0fd30-da32-45de-a8bb-b0672609b85b",
+        "4b937d3f-be20-4a8b-a68b-65194f1f89e3",
+        "7c645b1a-9d5b-4e8f-bd4c-3b3339a40525",
+        "1537c5c1-1af0-44a9-93b4-6f3cffb6d906",
+        "5290a32d-9298-40c2-b556-5d9e89e1c3a1",
+        "dc75b49e-63f7-4e20-91ed-d95d396bc4d8",
+        "989a47ae-007c-4787-832b-bc42cef80b01",
+        "a2d8a7bb-3ff1-4c3e-a323-7266d4720a84",
+        "e58b3a8d-8491-4604-b57c-d30bd7c394f1"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "content": "<p>こちらのページでは『ブラ&ショーツ』をサイズや詳細、デザイン別で検索することができます！<br\/>一覧検索やページだけでは見つけられなかった商品が見つかるかも！<\/p>"
+      }
+    },
+    "c08e06cb-c054-4578-ae91-3f1f462a1129": {
+      "type": "custom-search-cup",
+      "blocks": {
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "A",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "B",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "C",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "D",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "E",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "F",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "abfb7a5c-c35f-42b0-873a-d6aac9f3672a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "G",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "e76bd83a-e530-476c-943e-1916fd14e22d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "H",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1d9b5cd3-2f31-47c7-8326-9479ef65787e": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "I",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1149ab70-619a-4ee5-9d5f-032329ed2eae": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "All",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-1",
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-2",
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-3",
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-4",
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-5",
+        "template--16252385820812__c08e06cb-c054-4578-ae91-3f1f462a1129-collection-6",
+        "abfb7a5c-c35f-42b0-873a-d6aac9f3672a",
+        "e76bd83a-e530-476c-943e-1916fd14e22d",
+        "1d9b5cd3-2f31-47c7-8326-9479ef65787e",
+        "1149ab70-619a-4ee5-9d5f-032329ed2eae"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "ブラカップで探す",
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "622a655d-ebcd-4fa0-bf02-30c7ddf3b0a4": {
+      "type": "custom-search-set",
+      "blocks": {
+        "template--16252385820812__622a655d-ebcd-4fa0-bf02-30c7ddf3b0a4-logo-6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ブラ&ショーツ<\/p>"
+          }
+        },
+        "78fa6185-650d-4cf3-b397-dc86c0bc77e3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ブラ&Tバック<\/p>"
+          }
+        },
+        "d34a07e1-34b2-4922-b794-61e5ba53a46c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>3点セット<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__622a655d-ebcd-4fa0-bf02-30c7ddf3b0a4-logo-6",
+        "78fa6185-650d-4cf3-b397-dc86c0bc77e3",
+        "d34a07e1-34b2-4922-b794-61e5ba53a46c"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "セットタイプから探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "ce099961-0a28-46ea-9293-4004dcacf327": {
+      "type": "custom-search-brand",
+      "blocks": {
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Re.png",
+            "link": ""
+          }
+        },
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mumucu.png",
+            "link": ""
+          }
+        },
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Reinest.png",
+            "link": ""
+          }
+        },
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Lady_kitten.png",
+            "link": ""
+          }
+        },
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Whin_Bubby.png",
+            "link": ""
+          }
+        },
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/LEMURA.png",
+            "link": ""
+          }
+        },
+        "e7ef9646-394d-4ad9-854c-fe19015bb81f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/9f24087bd428e210ce978d66f954a985.png",
+            "link": ""
+          }
+        },
+        "cff092e6-218e-458e-9ecd-095d93fe3440": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/DRW.png",
+            "link": ""
+          }
+        },
+        "20100549-5d24-458b-bb1c-e048a9cbeca1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Lunangelina.png",
+            "link": ""
+          }
+        },
+        "b53990d9-f339-4fdc-a484-40ebd90a2f2c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/CARRIEFRANCA.png",
+            "link": ""
+          }
+        },
+        "0bdd3c21-c76a-44ca-9ce7-6ba3293e0830": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/mikomori.png",
+            "link": ""
+          }
+        },
+        "f5490e37-48a7-46bf-879a-0eeb9a117514": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Lestellame.png",
+            "link": ""
+          }
+        },
+        "0ce33521-5f8a-4fa0-a72d-0d0ff67871c9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Lulumerry.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-1",
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-2",
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-3",
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-4",
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-5",
+        "template--16252385820812__ce099961-0a28-46ea-9293-4004dcacf327-logo-6",
+        "e7ef9646-394d-4ad9-854c-fe19015bb81f",
+        "cff092e6-218e-458e-9ecd-095d93fe3440",
+        "20100549-5d24-458b-bb1c-e048a9cbeca1",
+        "b53990d9-f339-4fdc-a484-40ebd90a2f2c",
+        "0bdd3c21-c76a-44ca-9ce7-6ba3293e0830",
+        "f5490e37-48a7-46bf-879a-0eeb9a117514",
+        "0ce33521-5f8a-4fa0-a72d-0d0ff67871c9"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "ブランドで探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "a977a374-2d28-479d-bd01-2d5f7915ddf6": {
+      "type": "custom-search-type",
+      "blocks": {
+        "63ebb780-f043-4802-9fb5-72979a45e25a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "7ead12bb-3a42-4d33-85be-d1415b95e646": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "8fa47fb9-df31-465e-a455-ab3e11e95008": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "d9f3f312-9a16-42e7-b3ad-0ff6326552e4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "b5c95374-bca4-4f91-b908-111f756c8e1a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "cbb56c97-fab7-4173-a41b-80074b16b901": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "120b94e8-857e-40a9-ab2e-7b2e0079a2a3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "85d521ea-c0f0-4dee-8fc0-1c89a1d4ba2a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>育乳ブラ<\/p>"
+          }
+        },
+        "88607e6b-991b-449f-a9d3-fb327f297f19": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        },
+        "af065789-da03-44b3-a54c-3af9177d79c7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        },
+        "5eb34023-b1e5-43dc-8827-7aceb09c909f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        },
+        "f470b66c-7fa6-4454-b4dc-d9da026303c2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        },
+        "c1ec981d-a521-4c89-bc9b-79939a568549": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        },
+        "08763660-35f0-42b2-b0f8-8553e02ceab1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        },
+        "ff944c62-6b82-4d35-84e7-9f21ffb903c6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        },
+        "8edef3b0-5332-4268-85e9-eb2e5b3a3618": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>スポブラ<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "63ebb780-f043-4802-9fb5-72979a45e25a",
+        "7ead12bb-3a42-4d33-85be-d1415b95e646",
+        "8fa47fb9-df31-465e-a455-ab3e11e95008",
+        "d9f3f312-9a16-42e7-b3ad-0ff6326552e4",
+        "b5c95374-bca4-4f91-b908-111f756c8e1a",
+        "cbb56c97-fab7-4173-a41b-80074b16b901",
+        "120b94e8-857e-40a9-ab2e-7b2e0079a2a3",
+        "85d521ea-c0f0-4dee-8fc0-1c89a1d4ba2a",
+        "88607e6b-991b-449f-a9d3-fb327f297f19",
+        "af065789-da03-44b3-a54c-3af9177d79c7",
+        "5eb34023-b1e5-43dc-8827-7aceb09c909f",
+        "f470b66c-7fa6-4454-b4dc-d9da026303c2",
+        "c1ec981d-a521-4c89-bc9b-79939a568549",
+        "08763660-35f0-42b2-b0f8-8553e02ceab1",
+        "ff944c62-6b82-4d35-84e7-9f21ffb903c6",
+        "8edef3b0-5332-4268-85e9-eb2e5b3a3618"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "ブラのタイプで探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "d3dc728b-e6db-4562-a78a-58bb04ed4ed4": {
+      "type": "custom-search-skeletion",
+      "blocks": {
+        "5baf1ff1-65ce-47eb-b389-db9a728fee66": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Group_18933.png",
+            "link": "",
+            "content": "<p>骨格ウェーブ<\/p>",
+            "ske_title": "<p>華奢ボディ<\/p>",
+            "ske_type": "<h4>Wave<\/h4>"
+          }
+        },
+        "e845a11f-af68-4ba2-acc1-1a56e66f2047": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Group_18933.png",
+            "link": "",
+            "content": "<p>骨格ストレート<\/p>",
+            "ske_title": "<p>メリハリボディ<\/p>",
+            "ske_type": "<h4>Straight<\/h4>"
+          }
+        },
+        "0e669b86-0ff2-4b78-9b39-8d4401b5ea95": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Group_18933.png",
+            "link": "",
+            "content": "<p>骨格ナチュラル<\/p>",
+            "ske_title": "<p>スタイリッシュボディ<\/p>",
+            "ske_type": "<h4>Natural<\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "5baf1ff1-65ce-47eb-b389-db9a728fee66",
+        "e845a11f-af68-4ba2-acc1-1a56e66f2047",
+        "0e669b86-0ff2-4b78-9b39-8d4401b5ea95"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "骨格別で探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "71745fb7-d536-4481-8b9a-97c2f36504ef": {
+      "type": "custom-search-type",
+      "blocks": {
+        "debf91be-d414-4f14-a004-3426cb162a0b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ピンク<\/p>"
+          }
+        },
+        "45310db9-0dc1-4a7e-baa3-9d19b2ff0f59": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>パープル<\/p>"
+          }
+        },
+        "3be52322-b95a-4aba-abd7-7d2306e2a24f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>レッド<\/p>"
+          }
+        },
+        "633587ec-c463-42d8-811e-8f536775e582": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ホワイト<\/p>"
+          }
+        },
+        "94f83d9e-a420-49a0-ae93-3122bfdb6633": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ブラック<\/p>"
+          }
+        },
+        "4059440a-2274-4d46-8bcc-f9022c4511b0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ベージュ<\/p>"
+          }
+        },
+        "c75043e8-8d75-453b-b22c-9e1922e0aca4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ネイビー<\/p>"
+          }
+        },
+        "979b5ae7-307c-4d34-9599-fbf510b9671e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ブルー<\/p>"
+          }
+        },
+        "4a9c1f6e-907f-4378-9a17-f2272a0aa18b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>サックス<\/p>"
+          }
+        },
+        "d70b16aa-6e21-45ac-8bdc-cc52d0603f44": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>グリーン<\/p>"
+          }
+        },
+        "98735c83-44a1-4b00-ab0d-91a5a52b5dd9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>イエロー<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "debf91be-d414-4f14-a004-3426cb162a0b",
+        "45310db9-0dc1-4a7e-baa3-9d19b2ff0f59",
+        "3be52322-b95a-4aba-abd7-7d2306e2a24f",
+        "633587ec-c463-42d8-811e-8f536775e582",
+        "94f83d9e-a420-49a0-ae93-3122bfdb6633",
+        "4059440a-2274-4d46-8bcc-f9022c4511b0",
+        "c75043e8-8d75-453b-b22c-9e1922e0aca4",
+        "979b5ae7-307c-4d34-9599-fbf510b9671e",
+        "4a9c1f6e-907f-4378-9a17-f2272a0aa18b",
+        "d70b16aa-6e21-45ac-8bdc-cc52d0603f44",
+        "98735c83-44a1-4b00-ab0d-91a5a52b5dd9"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "カラーで探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "8ee6f5ff-ad57-4f62-8fda-4cf245ef883b": {
+      "type": "custom-search-pattern",
+      "blocks": {
+        "template--16252385820812__8ee6f5ff-ad57-4f62-8fda-4cf245ef883b-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>レース<\/p>"
+          }
+        },
+        "352c9d0b-94f4-499c-ac43-11fe39702566": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>刺　繍<\/p>"
+          }
+        },
+        "e26ce3ee-3796-4a79-bfa3-e93a7e70eb6d": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>シンプル<\/p>"
+          }
+        },
+        "e5a5dfb4-b1bf-41b3-9846-b410526bddc7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>グラデーション<\/p>"
+          }
+        },
+        "02594257-40b6-4a24-a403-7ef0293fb3ce": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>花柄プリント<\/p>"
+          }
+        },
+        "9f022291-d9ea-4185-91d1-cff01d9be43d": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>花柄刺繍<\/p>"
+          }
+        },
+        "53f00a89-e477-4d9b-b2ac-f49eba1c54a7": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ヌーディ配色<\/p>"
+          }
+        },
+        "f26f0943-e4e5-42fd-baa5-e2be23b098e1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>リボン<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__8ee6f5ff-ad57-4f62-8fda-4cf245ef883b-logo-1",
+        "352c9d0b-94f4-499c-ac43-11fe39702566",
+        "e26ce3ee-3796-4a79-bfa3-e93a7e70eb6d",
+        "e5a5dfb4-b1bf-41b3-9846-b410526bddc7",
+        "02594257-40b6-4a24-a403-7ef0293fb3ce",
+        "9f022291-d9ea-4185-91d1-cff01d9be43d",
+        "53f00a89-e477-4d9b-b2ac-f49eba1c54a7",
+        "f26f0943-e4e5-42fd-baa5-e2be23b098e1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "柄で探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f": {
+      "type": "custom-search-list",
+      "blocks": {
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "～1,000円",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "～2,000円",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "～3,000円",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "～4,000円",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "～5,000円",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "～6,000円",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-1",
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-2",
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-3",
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-4",
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-5",
+        "template--16252385820812__9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f-collection-6"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "価格で探す",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "content": ""
+      }
+    },
+    "34b6231b-b73d-4b2a-be4f-c6cb34ac06c2": {
+      "type": "custom-search-general",
+      "blocks": {
+        "template--16252385820812__34b6231b-b73d-4b2a-be4f-c6cb34ac06c2-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501_f1a441fb-87c3-488a-a469-5444273f746d.png",
+            "link": "",
+            "content": "<p>サテン<\/p>"
+          }
+        },
+        "6dc16db2-07c2-4ada-83a5-4c00c8542808": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501_f1a441fb-87c3-488a-a469-5444273f746d.png",
+            "link": "",
+            "content": "<p>シフォン<\/p>"
+          }
+        },
+        "256f5a50-835d-479f-83e7-0f7a3f96943c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501_f1a441fb-87c3-488a-a469-5444273f746d.png",
+            "link": "",
+            "content": "<p>レース<\/p>"
+          }
+        },
+        "909ff502-1f6b-456c-8cd2-4547d4583daa": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501_f1a441fb-87c3-488a-a469-5444273f746d.png",
+            "link": "",
+            "content": "<p>ストレッチ<\/p>"
+          }
+        },
+        "4d95be24-43bf-45d5-bfdb-ce9d50921639": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501_f1a441fb-87c3-488a-a469-5444273f746d.png",
+            "link": "",
+            "content": "<p>オーガンジー<\/p>"
+          }
+        },
+        "36e78d15-c1ec-4101-8669-73b5a108d43c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501_f1a441fb-87c3-488a-a469-5444273f746d.png",
+            "link": "",
+            "content": "<p>クロスコード<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__34b6231b-b73d-4b2a-be4f-c6cb34ac06c2-logo-3",
+        "6dc16db2-07c2-4ada-83a5-4c00c8542808",
+        "256f5a50-835d-479f-83e7-0f7a3f96943c",
+        "909ff502-1f6b-456c-8cd2-4547d4583daa",
+        "4d95be24-43bf-45d5-bfdb-ce9d50921639",
+        "36e78d15-c1ec-4101-8669-73b5a108d43c"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "素材で探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "4f6c5aec-a252-4ca6-8455-13caeaf623f6": {
+      "type": "custom-search-general",
+      "blocks": {
+        "template--16252385820812__4f6c5aec-a252-4ca6-8455-13caeaf623f6-logo-6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>マカロニコード<\/p>"
+          }
+        },
+        "97058d7d-bed8-4079-8b45-fd6ce49f445b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>ボトムアップ<\/p>"
+          }
+        },
+        "88640174-417c-4a36-93c4-1a8c4e13e2fd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>シンプル<\/p>"
+          }
+        },
+        "15f1e015-c7de-4c4f-b7e2-dd1986fe12a9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>ファスナー<\/p>"
+          }
+        },
+        "0ec189d7-2b8b-4f0c-ba7a-f19b091fd877": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>レースアップ<\/p>"
+          }
+        },
+        "3bc214a3-f734-488c-8228-42f7dd20125c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>クロスコード<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__4f6c5aec-a252-4ca6-8455-13caeaf623f6-logo-6",
+        "97058d7d-bed8-4079-8b45-fd6ce49f445b",
+        "88640174-417c-4a36-93c4-1a8c4e13e2fd",
+        "15f1e015-c7de-4c4f-b7e2-dd1986fe12a9",
+        "0ec189d7-2b8b-4f0c-ba7a-f19b091fd877",
+        "3bc214a3-f734-488c-8228-42f7dd20125c"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "ブラのデザインから探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "6bf3cfbe-c73b-43cf-8ddb-4b1aa0db0711": {
+      "type": "custom-search-general",
+      "blocks": {
+        "7da45cab-466e-44cf-9826-d6306140459f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>三角ストラップ<\/p>"
+          }
+        },
+        "6b854c9c-05f7-49a6-bba2-c4c31b9fa89b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>チャーム付き<\/p>"
+          }
+        },
+        "c57dcfb2-2c74-435c-abec-8bd91f4ce794": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>シンプルラメ入り<\/p>"
+          }
+        },
+        "b4c6137b-28f6-4c12-bc8a-e077a99e263c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>ノンワイヤー<\/p>"
+          }
+        },
+        "d9f7edf7-3084-41cf-bd2d-732821f5e131": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>フロントアップ<\/p>"
+          }
+        },
+        "ffaa0fce-3e24-45d9-bc1e-d1b01580ccc4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>脇  高<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7da45cab-466e-44cf-9826-d6306140459f",
+        "6b854c9c-05f7-49a6-bba2-c4c31b9fa89b",
+        "c57dcfb2-2c74-435c-abec-8bd91f4ce794",
+        "b4c6137b-28f6-4c12-bc8a-e077a99e263c",
+        "d9f7edf7-3084-41cf-bd2d-732821f5e131",
+        "ffaa0fce-3e24-45d9-bc1e-d1b01580ccc4"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "ブラの特徴から探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "661088a3-1244-416b-830d-43591c0ea712": {
+      "type": "custom-search-general",
+      "blocks": {
+        "afb16097-9197-4a4a-bfa5-cf6625c75932": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>紐パン<\/p>"
+          }
+        },
+        "1147f54a-0c93-45a9-9a2e-648ba3f94785": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>レースショーツ<\/p>"
+          }
+        },
+        "65195ddd-793f-4147-a7fb-e67ba4753e51": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>アシメ<\/p>"
+          }
+        },
+        "24f1001e-cfdc-436b-bfb5-9e9a4be9830d": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>ファスナー<\/p>"
+          }
+        },
+        "7f26a73b-02b7-4d2f-83d6-5f9f14730ced": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>Wライン<\/p>"
+          }
+        },
+        "55287092-83e6-4794-bdb8-4018152fe082": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>レースライン<\/p>"
+          }
+        },
+        "d512df4a-b99d-4264-ae22-121ea57ef726": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>ノーマル<\/p>"
+          }
+        },
+        "1c64ed83-8459-44e6-85c3-779ca74f23da": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>Tバック<\/p>"
+          }
+        },
+        "d57fce85-717d-4341-8ded-f0e8b3848d8a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>シアー<\/p>"
+          }
+        },
+        "5ac88987-1e43-44e4-add8-5f051fd736e5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>サニタリー<\/p>"
+          }
+        },
+        "3af369e4-296d-45d5-9f9e-fde3e37ecf2d": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>フリルライン<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "afb16097-9197-4a4a-bfa5-cf6625c75932",
+        "1147f54a-0c93-45a9-9a2e-648ba3f94785",
+        "65195ddd-793f-4147-a7fb-e67ba4753e51",
+        "24f1001e-cfdc-436b-bfb5-9e9a4be9830d",
+        "7f26a73b-02b7-4d2f-83d6-5f9f14730ced",
+        "55287092-83e6-4794-bdb8-4018152fe082",
+        "d512df4a-b99d-4264-ae22-121ea57ef726",
+        "1c64ed83-8459-44e6-85c3-779ca74f23da",
+        "d57fce85-717d-4341-8ded-f0e8b3848d8a",
+        "5ac88987-1e43-44e4-add8-5f051fd736e5",
+        "3af369e4-296d-45d5-9f9e-fde3e37ecf2d"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "ショーツのデザインから探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "88dd3fff-ca97-418d-bb87-9386c3b4276c": {
+      "type": "custom-search-list",
+      "blocks": {
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "L字ワイヤー",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "U字ワイヤー",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "UL字ワイヤー",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "ノンワイヤー",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-1",
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-2",
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-3",
+        "template--16252385820812__88dd3fff-ca97-418d-bb87-9386c3b4276c-collection-6"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "ワイヤーで探す",
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "content": ""
+      }
+    },
+    "317f990e-08a2-425a-b80e-1ab5a56f4ab3": {
+      "type": "custom-search-general",
+      "blocks": {
+        "template--16252385820812__317f990e-08a2-425a-b80e-1ab5a56f4ab3-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/22.png",
+            "link": "",
+            "content": "<p>取り外し可<\/p>"
+          }
+        },
+        "fb74105a-969f-4f3d-8f08-5403eea3244d": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/22.png",
+            "link": "",
+            "content": "<p>取り外し不可<\/p>"
+          }
+        },
+        "eee4e99c-248c-4f9e-8f18-76c1618d007f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/22.png",
+            "link": "",
+            "content": "<p>金　 属<\/p>"
+          }
+        },
+        "58ae88b2-9a6e-4371-9edf-4da23bde02f8": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/22.png",
+            "link": "",
+            "content": "<p>コーティング<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__317f990e-08a2-425a-b80e-1ab5a56f4ab3-logo-5",
+        "fb74105a-969f-4f3d-8f08-5403eea3244d",
+        "eee4e99c-248c-4f9e-8f18-76c1618d007f",
+        "58ae88b2-9a6e-4371-9edf-4da23bde02f8"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "ブラストラップで探す",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "0c08f281-5259-49ba-9657-e4bc3f52973e": {
+      "type": "custom-search-skeletion",
+      "blocks": {
+        "template--16252385820812__0c08f281-5259-49ba-9657-e4bc3f52973e-logo-6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>内蔵パッド<br\/>+ 付属パッド<\/p>",
+            "ske_title": "",
+            "ske_type": ""
+          }
+        },
+        "7ea65461-f12a-4f20-a2ed-b678ad460895": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>付属パッド<br\/>のみ<\/p>",
+            "ske_title": "",
+            "ske_type": ""
+          }
+        },
+        "33ef4ead-bc24-4c68-988e-5f2304513da1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e.png",
+            "link": "",
+            "content": "<p>内蔵パッド<br\/>のみ<\/p>",
+            "ske_title": "",
+            "ske_type": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__0c08f281-5259-49ba-9657-e4bc3f52973e-logo-6",
+        "7ea65461-f12a-4f20-a2ed-b678ad460895",
+        "33ef4ead-bc24-4c68-988e-5f2304513da1"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "パッドの有無で検索",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "6e782d2d-52c9-4fd9-b9f8-7f607a1e81be": {
+      "type": "custom-search-skeletion",
+      "blocks": {
+        "template--16252385820812__6e782d2d-52c9-4fd9-b9f8-7f607a1e81be-logo-6": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Group_18934.png",
+            "link": "",
+            "content": "<p>レモンパッド<\/p>",
+            "ske_title": "",
+            "ske_type": ""
+          }
+        },
+        "2ddc04c6-eebd-42ef-9e0b-99f337ed1397": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Group_18934.png",
+            "link": "",
+            "content": "<p>三日月パッド<\/p>",
+            "ske_title": "",
+            "ske_type": ""
+          }
+        },
+        "c3bb31d1-9457-4bc8-bbf2-0d3083974f80": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Group_18934.png",
+            "link": "",
+            "content": "<p>立体パッド<\/p>",
+            "ske_title": "",
+            "ske_type": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__6e782d2d-52c9-4fd9-b9f8-7f607a1e81be-logo-6",
+        "2ddc04c6-eebd-42ef-9e0b-99f337ed1397",
+        "c3bb31d1-9457-4bc8-bbf2-0d3083974f80"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "パッドの形で検索",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "19ef74ad-056a-403e-be30-9c0bb96146b9": {
+      "type": "custom-search-model",
+      "blocks": {
+        "template--16252385820812__19ef74ad-056a-403e-be30-9c0bb96146b9-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>三上悠亜<\/p>"
+          }
+        },
+        "e9adce61-5824-496f-b037-99d44c441aa8": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>永尾まりや<\/p>"
+          }
+        },
+        "14244da6-7bd8-49ff-847c-7840fd16c032": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>杉本美穗<\/p>"
+          }
+        },
+        "403e6159-26bf-466c-9800-436ab9676469": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>きぬ<\/p>"
+          }
+        },
+        "585447bb-4ea8-40dc-96da-796aeeffbc0b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ちぃぽぽ<\/p>"
+          }
+        },
+        "aeb7d159-56b2-4c31-b56e-c3588dd14eeb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>Rちゃん<\/p>"
+          }
+        },
+        "6c1ad697-f85c-49ab-bd25-c452c727da23": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>明日花キララ<\/p>"
+          }
+        },
+        "bd77a652-cc75-4c6b-a018-3c2755178e3b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>えがさり<\/p>"
+          }
+        },
+        "b1030037-d616-46cb-a181-05ccc3a9ffc5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>田向星華<\/p>"
+          }
+        },
+        "45007aad-6bf4-40db-9a98-ddcb1ba5a861": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>PyunA<\/p>"
+          }
+        },
+        "8c61efba-3895-4ae6-a869-3a59dbdc81fb": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>なちょす<\/p>"
+          }
+        },
+        "cce33a8b-aae9-4a8e-86c0-711f0d7d278e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>松葉愛海<\/p>"
+          }
+        },
+        "ef224bf6-4d6e-465b-9658-aec1e9faf8c8": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>れいたぴ<\/p>"
+          }
+        },
+        "b4c4c503-061d-47df-a385-544b150077c0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>亀田真由<\/p>"
+          }
+        },
+        "a38a998a-587a-4a08-8cc0-94733f8c2665": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>KANON<\/p>"
+          }
+        },
+        "918a923f-3153-4181-86e1-bc481eae6aee": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>かとみか<\/p>"
+          }
+        },
+        "7e7c80ad-e14a-4f6c-b1f5-ad8e5ead9382": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ひろな<\/p>"
+          }
+        },
+        "361206a0-05d9-4bc0-a064-578d03f86887": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>脇田恵孑<\/p>"
+          }
+        },
+        "152ef72e-42b6-4f88-b4a2-5261a7b6bdb0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>土屋怜菜<\/p>"
+          }
+        },
+        "647dd547-542d-4861-a885-644a3fe6c80f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>カイヤ<\/p>"
+          }
+        },
+        "b02fe921-380d-4f1b-9a1a-f91d9b00784e": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>遠山茜孑<\/p>"
+          }
+        },
+        "76369b47-f817-4d3c-acb4-f1e0325cec59": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>橋本萌花<\/p>"
+          }
+        },
+        "7fa7595f-7e6f-4d9e-9fba-27867deb9ea2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ひろみ<\/p>"
+          }
+        },
+        "160203f6-232b-46f0-9c49-b96ac33d1d4f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>BIRI<\/p>"
+          }
+        },
+        "38c1e65c-57e0-4cad-a217-e09d183ef482": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>岸明日香<\/p>"
+          }
+        },
+        "d8593979-7511-49c0-a165-9e9e4e745c62": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>中島ケイカ<\/p>"
+          }
+        },
+        "fe6634e0-7a73-4fc6-8be8-0fb0960c41cf": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>ヴィエンナ<\/p>"
+          }
+        },
+        "4b11d7f2-12e9-469f-8ba0-c74589d7fc08": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/l_e_others_501.png",
+            "link": "",
+            "content": "<p>リボン<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__19ef74ad-056a-403e-be30-9c0bb96146b9-logo-1",
+        "e9adce61-5824-496f-b037-99d44c441aa8",
+        "14244da6-7bd8-49ff-847c-7840fd16c032",
+        "403e6159-26bf-466c-9800-436ab9676469",
+        "585447bb-4ea8-40dc-96da-796aeeffbc0b",
+        "aeb7d159-56b2-4c31-b56e-c3588dd14eeb",
+        "6c1ad697-f85c-49ab-bd25-c452c727da23",
+        "bd77a652-cc75-4c6b-a018-3c2755178e3b",
+        "b1030037-d616-46cb-a181-05ccc3a9ffc5",
+        "45007aad-6bf4-40db-9a98-ddcb1ba5a861",
+        "8c61efba-3895-4ae6-a869-3a59dbdc81fb",
+        "cce33a8b-aae9-4a8e-86c0-711f0d7d278e",
+        "ef224bf6-4d6e-465b-9658-aec1e9faf8c8",
+        "b4c4c503-061d-47df-a385-544b150077c0",
+        "a38a998a-587a-4a08-8cc0-94733f8c2665",
+        "918a923f-3153-4181-86e1-bc481eae6aee",
+        "7e7c80ad-e14a-4f6c-b1f5-ad8e5ead9382",
+        "361206a0-05d9-4bc0-a064-578d03f86887",
+        "152ef72e-42b6-4f88-b4a2-5261a7b6bdb0",
+        "647dd547-542d-4861-a885-644a3fe6c80f",
+        "b02fe921-380d-4f1b-9a1a-f91d9b00784e",
+        "76369b47-f817-4d3c-acb4-f1e0325cec59",
+        "7fa7595f-7e6f-4d9e-9fba-27867deb9ea2",
+        "160203f6-232b-46f0-9c49-b96ac33d1d4f",
+        "38c1e65c-57e0-4cad-a217-e09d183ef482",
+        "d8593979-7511-49c0-a165-9e9e4e745c62",
+        "fe6634e0-7a73-4fc6-8be8-0fb0960c41cf",
+        "4b11d7f2-12e9-469f-8ba0-c74589d7fc08"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "モデル別で検索",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "382dce5d-f32f-4364-bdf1-7096f955c9b2": {
+      "type": "custom-featured-collections",
+      "blocks": {
+        "template--16252385820812__382dce5d-f32f-4364-bdf1-7096f955c9b2-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "re",
+            "label": "",
+            "button_text": "View All",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16252385820812__382dce5d-f32f-4364-bdf1-7096f955c9b2-collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Featured Products",
+        "content": "<p>おすすめ商品<\/p>",
+        "products_count": 5,
+        "products_per_row": 5,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "a3531584-31a5-41c2-a73c-868d99b9fec8": {
+      "type": "custom-recently-viewed-products",
+      "settings": {
+        "content": "<p>最近見た商品<\/p>",
+        "button_text": "View All",
+        "button_url": "",
+        "subheading": "",
+        "title": "Recently viewed products",
+        "products_count": 5,
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#f7f4ed",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "79ed8a3e-7dbf-4c96-9469-24021a4de560",
+    "aac79dfb-00e5-4992-ac13-4c5e9b16fee3",
+    "ab11f8e7-2eb7-4073-a5ba-86bf7c09d967",
+    "c08e06cb-c054-4578-ae91-3f1f462a1129",
+    "622a655d-ebcd-4fa0-bf02-30c7ddf3b0a4",
+    "ce099961-0a28-46ea-9293-4004dcacf327",
+    "a977a374-2d28-479d-bd01-2d5f7915ddf6",
+    "d3dc728b-e6db-4562-a78a-58bb04ed4ed4",
+    "71745fb7-d536-4481-8b9a-97c2f36504ef",
+    "8ee6f5ff-ad57-4f62-8fda-4cf245ef883b",
+    "9b20f1a5-75f2-42ef-a9af-dd9abbab4a7f",
+    "34b6231b-b73d-4b2a-be4f-c6cb34ac06c2",
+    "4f6c5aec-a252-4ca6-8455-13caeaf623f6",
+    "6bf3cfbe-c73b-43cf-8ddb-4b1aa0db0711",
+    "661088a3-1244-416b-830d-43591c0ea712",
+    "88dd3fff-ca97-418d-bb87-9386c3b4276c",
+    "317f990e-08a2-425a-b80e-1ab5a56f4ab3",
+    "0c08f281-5259-49ba-9657-e4bc3f52973e",
+    "6e782d2d-52c9-4fd9-b9f8-7f607a1e81be",
+    "19ef74ad-056a-403e-be30-9c0bb96146b9",
+    "382dce5d-f32f-4364-bdf1-7096f955c9b2",
+    "a3531584-31a5-41c2-a73c-868d99b9fec8"
+  ]
+}

@@ -1,0 +1,1424 @@
+p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    text-align: left;
+    color: #444;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* header section */
+
+.announcement-bar__message p {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+}
+
+.shopify-section--header ul.header__linklist li a {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+}
+
+.shopify-section--custom-header ul.header__linklist li a {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: #444;
+}
+
+
+/* custom header section */
+
+.shopify-section--custom-header .header {
+    background-color: #F7F4ED;
+}
+
+.header__wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* blog posts */
+
+.article-item__image-container {
+    display: none;
+}
+
+.article-item__content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h3.article-item__date {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #221514;
+    margin: 0;
+}
+
+h3.article-item__title {
+    margin-block-start: 0!important;
+    margin-inline-start: 50px!important;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #221514;
+}
+
+.article-list {
+    margin-inline: 0;
+    grid-template-columns: 100%;
+}
+
+.article-list--section .article-item:only-child {
+    max-width: 100%;
+}
+
+.article-item__box {
+    display: flex;
+    align-items: baseline;
+}
+
+.shopify-section--blog-posts .section {
+    margin: 20px 0;
+}
+
+.shopify-section--blog-posts .container {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 5%;
+}
+
+
+/* intro section */
+
+.shopify-section--image-with-text-overlay .image-overlay {
+    background: #F7F4ED;
+}
+
+.shopify-section--image-with-text-overlay .image-overlay img {
+    opacity: 1;
+    padding: 40px 0;
+    width: 50%;
+    object-fit: contain;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shopify-section--image-with-text-overlay .image-overlay__content-wrapper h3.heading {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    margin-block-end: 0;
+    margin-block-start: 20px!important;
+}
+
+.shopify-section--image-with-text-overlay .image-overlay__text-container {
+    margin-block-start: 0;
+}
+
+.shopify-section--image-with-text-overlay .image-overlay__text-container p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* contents section */
+
+.button:not(.button--text),
+.shopify-challenge__button,
+#shopify-product-reviews .spr-summary-actions-newreview,
+#shopify-product-reviews .spr-button {
+    text-transform: none;
+    padding: 0 5%;
+}
+
+.button--primary {
+    border: 1px solid #BEB3A4;
+    position: relative;
+}
+
+.button--primary a {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #beb3a4;
+}
+
+.button--primary::after {
+    content: "\af";
+    position: absolute;
+    font-size: 15px;
+    width: 30px;
+    top: 6px;
+}
+
+.section__header h3 {
+    font-family: "Jost", sans-serif;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #222;
+}
+
+.shopify-section--custom-logo-list .logo-list {
+    margin: 0;
+}
+
+.shopify-section--custom-logo-list .logo-list__item {
+    display: block;
+    width: calc( 23vw - 10px);
+}
+
+.shopify-section--custom-logo-list .logo-list__item img {
+    width: 100%!important;
+}
+
+.shopify-section--custom-logo-list .logo-list__item p {
+    text-align: center;
+}
+
+.shopify-section--custom-logo-list .container {
+    padding-inline: 5%;
+    margin: 0;
+    max-width: 100%;
+}
+
+.shopify-section--custom-logo-list .logo-list__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* brand section */
+
+.shopify-section--logo-list .container {
+    margin: 0;
+    max-width: 100%;
+}
+
+.shopify-section--logo-list .logo-list {
+    margin: 0;
+}
+
+.shopify-section--logo-list .logo-list__list {
+    --logos-per-row: 7;
+    grid-template-columns: repeat(min(var(--logos-per-row), var(--section-logo-count)), minmax(140px, 300px));
+}
+
+
+/* New Arrival section */
+
+.shopify-section--custom-featured-collections .container {
+    margin: 0;
+    max-width: 100%;
+    padding-inline: 5%;
+}
+
+.shopify-section--custom-featured-collections .section__header {
+    max-width: 100%;
+}
+
+.tabs-nav__item-list {
+    box-shadow: none;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.tabs-nav__item-list .tabs-nav__item[aria-expanded="true"] {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #fff;
+    background-color: #BEB3A4;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+.tabs-nav__item-list .tabs-nav__item[aria-expanded="false"] {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #6e6e6e;
+}
+
+.tabs-nav__position {
+    display: none;
+}
+
+.shopify-section--custom-featured-collections .product-item-meta a {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 22px;
+    text-align: left;
+    color: #444;
+}
+
+.shopify-section--custom-featured-collections .price {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #444;
+}
+
+.shopify-section--custom-featured-collections .product-item-meta__price-list-container {
+    text-align: left;
+}
+
+.shopify-section--custom-featured-collections .product__media {
+    --product-media-width: 100%;
+    padding-inline-start: 10px;
+}
+
+.shopify-section--custom-featured-collections .product__thumbnail {
+    width: 30px;
+    min-width: 20px;
+}
+
+.shopify-section--custom-featured-collections .product-item__info {
+    margin-top: 15px;
+}
+
+.vendor_name {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #888;
+}
+
+.product__media-image-wrapper {
+    position: relative;
+    /* padding: 1%; */
+    background: transparent;
+}
+
+span.product_sku {
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #434141;
+    background-color: #F7F4ED;
+    padding: 2px 15px;
+    border-radius: 50px;
+}
+
+
+/* .product__media-image-wrapper img {
+    padding: 2% 0 0 2%;
+} */
+
+.new_tag {
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-align: left;
+    color: #fff;
+    background-image: url(/cdn/shop/files/news_bk.png?v=1700632361);
+    background-size: 100%;
+    position: absolute;
+    top: 10px;
+    z-index: 100;
+    padding: 2px 10px 5px;
+    background-repeat: no-repeat;
+    left: -5px;
+}
+
+.product-list__arrow {
+    background-color: #AA9A85;
+    color: white;
+}
+
+
+/* ranking section */
+
+.shopify-section--custom-ranking-collections .container {
+    margin: 0;
+    max-width: 100%;
+    padding-inline: 5%;
+}
+
+.shopify-section--custom-ranking-collections .section__header {
+    max-width: 100%;
+}
+
+.shopify-section--custom-ranking-collections .product-item-meta a {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 22px;
+    text-align: left;
+    color: #444;
+}
+
+.shopify-section--custom-ranking-collections .price {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #444;
+}
+
+.shopify-section--custom-ranking-collections .product-item-meta__price-list-container {
+    text-align: left;
+}
+
+.shopify-section--custom-ranking-collections .product__media {
+    --product-media-width: 100%;
+    padding-inline-start: 10px;
+    position: relative;
+}
+
+.shopify-section--custom-ranking-collections .product__thumbnail {
+    width: 30px;
+    min-width: 20px;
+}
+
+.shopify-section--custom-ranking-collections .product-item__info {
+    margin-top: 15px;
+}
+
+.scroller {
+    position: relative;
+}
+
+.shopify-section--custom-ranking-collections .product__media {
+    padding-top: 10px;
+}
+
+.ranking {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    z-index: 10;
+    background-color: #AA9A85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 2px;
+}
+
+.ranking span {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #fff;
+}
+
+
+/* Re Arrival section */
+
+.shopify-section--featured-collections .container {
+    margin: 0;
+    max-width: 100%;
+    padding-inline: 5%;
+}
+
+
+/* search cup section */
+
+.shopify-section--custom-search-cup .list-collections__item {
+    padding: 20px 0;
+    background-color: transparent;
+    border: 1px solid #BEB3A4;
+    border-radius: 50px;
+}
+
+.shopify-section--custom-search-cup .list-collections__item-list {
+    grid-template-columns: repeat(auto-fit, calc(100% / 6 - var(--container-gutter) * 2 / 3));
+    padding: 0 15%;
+    row-gap: 15px;
+}
+
+.shopify-section--custom-search-cup span.heading {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #beb3a4;
+    text-decoration: none;
+}
+
+
+/* category section */
+
+.shopify-section--custom-category-list .logo-list {
+    margin: 0;
+}
+
+.shopify-section--custom-category-list .logo-list__item {
+    flex-direction: column;
+}
+
+.shopify-section--custom-category-list .logo-list__item img {
+    width: 100%!important;
+    border-radius: 50%;
+    padding: 10%;
+    background-color: white;
+}
+
+.shopify-section--custom-category-list .logo-list__item p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.shopify-section--custom-category-list .container {
+    margin: 0;
+    max-width: 100%;
+    padding: 5% 9%;
+}
+
+.shopify-section--custom-category-list .logo-list__list {
+    --logos-per-row: 8;
+    --logos-gap: 12px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+/* text icon section */
+
+.shopify-section--text-with-icons .container {
+    margin: 0 5%;
+    max-width: 90%;
+}
+
+.text-with-icons__item {
+    display: flex;
+    align-items: center;
+}
+
+.text-with-icons__icon-wrapper {
+    margin-inline-end: 50px;
+}
+
+.text-with-icons__content-wrapper p.heading {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #222;
+}
+
+.text-with-icons__list {
+    grid-auto-columns: minmax(200px, 500px);
+}
+
+
+/* slide show section */
+
+.slideshow__slide[hidden] {
+    position: relative;
+    visibility: visible;
+}
+
+.slideshow__slide[aria-hidden="true"] {
+    opacity: 0.3;
+}
+
+[reveal-visibility] {
+    visibility: visible;
+}
+
+.slideshow__nav {
+    display: none;
+}
+
+
+/* footer social media section */
+
+.shopify-section--custom-social-media ul.social-media {
+    justify-content: center;
+}
+
+.shopify-section--custom-social-media ul.social-media li {
+    box-shadow: none;
+    padding: 0 15px;
+}
+
+.shopify-section--custom-social-media ul.social-media li a svg {
+    width: 32px;
+    height: 32px;
+}
+
+
+/* footer section */
+
+.shopify-section--footer .container {
+    margin: 0;
+    max-width: 100%;
+    padding-inline: 5%;
+}
+
+.footer__copyright {
+    margin: 0 auto;
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+p.footer__item-title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #fff;
+    text-transform: none;
+    padding: 0;
+}
+
+p.footer__item-title span {
+    display: none;
+}
+
+.footer__item-content ul li a {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+}
+
+.footer__follow-and-payment img {
+    width: 80%;
+}
+
+.footer__item-content form input.input__field {
+    border-bottom: 1px solid #F4F4F4;
+    border-radius: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 0;
+}
+
+.footer__item-content form label,
+.footer__item-content form .input__submit-icon {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 18px;
+    text-align: left;
+    color: #fff;
+}
+
+button.input__submit-icon {
+    border: 1px solid #B2B0AC;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.footer__item-content p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    line-height: 18px;
+    text-align: left;
+    color: #dedede;
+}
+
+.footer__item-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
+}
+
+.footer__item--newsletter {
+    max-width: 100%;
+    padding-left: 50%;
+}
+
+.product-list__prev-next {
+    top: 20%;
+}
+
+.footer__item-list .footer__item:nth-child(2) {
+    display: none;
+}
+
+.input__label:not(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    left: 0;
+    padding: 0;
+}
+
+.input__submit-icon:not(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+    right: 0;
+}
+
+.footer__item-content form input.input__field:focus {
+    outline: none;
+    /* border: none; */
+    box-shadow: none;
+}
+
+
+/* search page */
+
+.shopify-section--custom-image-with-text-overlay .image-overlay__content-wrapper h3.heading {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    margin-block-end: 0;
+    margin-block-start: 20px!important;
+}
+
+.shopify-section--custom-image-with-text-overlay .image-overlay__text-container {
+    margin-block-start: 0;
+}
+
+.shopify-section--custom-image-with-text-overlay .image-overlay__text-container p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+
+/* custom search list section */
+
+.shopify-section--custom-search-list .list-collections__item {
+    padding: 20px 0;
+    background-color: #CEC5BA;
+    border: 1px solid #BEB3A4;
+    border-radius: 50px;
+}
+
+.shopify-section--custom-search-list .list-collections__item-list {
+    grid-template-columns: repeat(auto-fit, calc(100% / 7 - var(--container-gutter) * 2 / 3));
+    padding: 0 10%;
+    row-gap: 15px;
+}
+
+.shopify-section--custom-search-list .list-collections__item-info,
+.shopify-section--custom-search-cup .list-collections__item-info {
+    padding-inline: 0;
+}
+
+.shopify-section--custom-search-list .list-collections__item-info span.heading {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.search-list-contents {
+    padding-bottom: 4%;
+}
+
+.search-list-contents p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    text-align: center;
+    color: #222;
+}
+
+
+/* custom search type section */
+
+.shopify-section--custom-search-type .logo-list {
+    margin: 0;
+}
+
+.shopify-section--custom-search-type .logo-list__item {
+    flex-direction: column;
+}
+
+.shopify-section--custom-search-type .logo-list__item img {
+    width: 100%!important;
+    border-radius: 50%;
+    padding: 10%;
+    background-color: #F7F4ED;
+}
+
+.shopify-section--custom-search-type .logo-list__item p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.shopify-section--custom-search-type .container {
+    margin: 0;
+    max-width: 100%;
+}
+
+.shopify-section--custom-search-type .logo-list__list {
+    --logos-per-row: 8;
+    --logos-gap: 12px;
+    align-items: start;
+    padding: 0 7%;
+}
+
+
+/* custom search general section */
+
+.shopify-section--custom-search-general .logo-list__item {
+    display: grid;
+    padding: 0;
+}
+
+.shopify-section--custom-search-general .logo-list__item p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #444;
+}
+
+
+/* custom search model section */
+
+.shopify-section--custom-search-model .logo-list__list {
+    --logos-per-row: 8;
+}
+
+.shopify-section--custom-search-model .logo-list__item {
+    display: grid;
+    padding: 0;
+}
+
+.shopify-section--custom-search-model .logo-list__item p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #444;
+}
+
+
+/* related product section */
+
+.shopify-section--custom-featured-collections .section__header p {
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #beb3a4;
+}
+
+
+/* custom search skeletion section */
+
+.shopify-section--custom-search-skeletion .logo-list__item {
+    display: grid;
+    padding: 0;
+}
+
+.shopify-section--custom-search-skeletion .logo-list__item p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #444;
+}
+
+.skeletion-box {
+    position: relative;
+}
+
+.skeletion-box p {
+    position: absolute;
+    top: 10px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #444;
+    left: 0;
+    right: 0;
+}
+
+.skeletion-box h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #beb3a4;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+
+/* Recently Viewed products section */
+
+.shopify-section--custom-recently-viewed-products .section__header p {
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #beb3a4;
+}
+
+.shopify-section--custom-recently-viewed-products .container {
+    margin: 0;
+    max-width: 100%;
+    padding-inline: 5%;
+}
+
+.shopify-section--custom-recently-viewed-products .section__header {
+    max-width: 100%;
+}
+
+.shopify-section--custom-recently-viewed-products .product-item-meta a {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 22px;
+    text-align: left;
+    color: #444;
+}
+
+.shopify-section--custom-recently-viewed-products .price {
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #444;
+}
+
+.shopify-section--custom-recently-viewed-products .product-item-meta__price-list-container {
+    text-align: left;
+}
+
+.shopify-section--custom-recently-viewed-products .product__media {
+    --product-media-width: 100%;
+    padding-inline-start: 10px;
+}
+
+.shopify-section--custom-recently-viewed-products .product__thumbnail {
+    width: 30px;
+    min-width: 20px;
+}
+
+.shopify-section--custom-recently-viewed-products .product-item__info {
+    margin-top: 15px;
+}
+
+.shopify-section--custom-recently-viewed-products .product-list__inner {
+    justify-content: flex-start;
+}
+
+
+/* custom search brand section */
+
+.shopify-section--custom-search-brand .logo-list {
+    margin: 0;
+}
+
+.shopify-section--custom-search-brand .logo-list__list {
+    --logos-per-row: 7;
+}
+
+
+/* custom search pattern section */
+
+.shopify-section--custom-search-pattern .logo-list {
+    margin: 0;
+}
+
+.shopify-section--custom-search-pattern .logo-list__item {
+    flex-direction: column;
+}
+
+.shopify-section--custom-search-pattern .logo-list__item img {
+    width: 100%!important;
+    border-radius: 50%;
+    padding: 10%;
+    background-color: white;
+}
+
+.shopify-section--custom-search-pattern .logo-list__item p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.shopify-section--custom-search-pattern .container {
+    margin: 0;
+    max-width: 100%;
+    padding: 5% 9%;
+}
+
+.shopify-section--custom-search-pattern .logo-list__list {
+    --logos-per-row: 8;
+    --logos-gap: 12px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+/* custom search set section */
+
+.shopify-section--custom-search-set .logo-list {
+    margin: 0;
+}
+
+.shopify-section--custom-search-set .logo-list__item {
+    flex-direction: column;
+}
+
+.shopify-section--custom-search-set .logo-list__item img {
+    width: 100%!important;
+    border-radius: 50%;
+    padding: 10%;
+    background-color: #F7F4ED;
+}
+
+.shopify-section--custom-search-set .logo-list__item p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.shopify-section--custom-search-set .container {
+    margin: 0;
+    max-width: 100%;
+}
+
+.shopify-section--custom-search-set .logo-list__list {
+    --logos-per-row: 8;
+    --logos-gap: 12px;
+    align-items: start;
+    padding: 0 7%;
+}
+
+
+/* product page */
+
+.breadcrumb__link {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    line-height: 20px;
+    text-align: left;
+    color: #666;
+}
+
+.product__info h2.product-meta__vendor a {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #6f6f6f;
+}
+
+.product__info h1.product-meta__title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    line-height: 20px;
+    text-align: left;
+    color: #222;
+}
+
+.product__info .label--custom2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 20px;
+    text-align: left;
+    color: #fff;
+    background-color: #BEB3A4;
+    border-radius: 50px;
+    padding: 2px 10px;
+}
+
+.product-form__option-name {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #222;
+}
+
+.product-form__option-value {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #222;
+}
+
+.block-swatch .block-swatch__item {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #BEB3A4;
+}
+
+.block-swatch__radio:checked+.block-swatch__item:after {
+    box-shadow: 0 0 0 1px #BEB3A4 inset, 0 0 0 1px #BEB3A4;
+}
+
+.block-swatch__radio:checked+.block-swatch__item {
+    color: white;
+    background-color: #BEB3A4;
+}
+
+.product-meta__price-list-container .price {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    text-align: left;
+    color: #222;
+    padding-top: 15px;
+}
+
+.product-meta__share-button-item {
+    background-color: #BEB3A4;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-form__payment-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-form__payment-container .product-form__add-button,
+.shopify-payment-button {
+    width: 50%;
+}
+
+.product-form__add-button .loader-button__text {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    line-height: inherit;
+    margin-bottom: 0;
+}
+
+.shopify-payment-button__more-options {
+    display: none!important;
+}
+
+.product-form__quantity {
+    display: flex;
+    align-items: center;
+}
+
+.product-form__quantity-label {
+    padding-right: 10px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #222;
+}
+
+.product-content__tabs {
+    width: 50%!important;
+    margin-inline-start: 0%!important;
+}
+
+.product-description-box-left,
+.product-description-box-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-description-box-left img {
+    width: 40%;
+}
+
+.product-description-box-left p {
+    margin-left: 10%;
+}
+
+.product-tabs__content p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    line-height: 26px;
+    text-align: left;
+    color: #6e6e6e;
+}
+
+.product-description-box-right img {
+    width: 40%;
+}
+
+.product-description-box-right p {
+    margin-right: 10%;
+}
+
+.product-form .product-form__button a:after {
+    display: none;
+}
+
+.product-meta__share-button-item--mail {
+    display: none;
+}
+
+.product__info {
+    position: relative;
+}
+
+.product-meta__aside {
+    position: absolute;
+    top: 14%;
+    right: 0;
+}
+
+.product-meta {
+    border-bottom: none;
+}
+
+.loader-button__text svg {
+    margin-right: 10px;
+}
+
+.loader-button__text::after {
+    content: "\af";
+    position: absolute;
+    font-size: 25px;
+    width: 30px;
+    top: 7px;
+    right: 35px;
+}
+
+.product-tabs .tabs-nav {
+    display: none;
+}
+
+.product-sticky-form__payment-container .loader-button__text svg {
+    display: none;
+}
+
+.product-content-imgs {
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-content-imgs img {
+    width: 47%;
+}
+
+.product-content-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-content-links .button-wrapper {
+    width: 47%;
+}
+
+.product-content-links .button-wrapper a {
+    width: 100%;
+}
+
+.product-tabs__content button {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    text-align: left;
+    color: #222;
+}
+
+.product_size h5,
+.product_material h5,
+.product_remark h5,
+.product_spec h5 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    line-height: 26px;
+    text-align: left;
+    color: #222;
+}
+
+.product_size h6,
+.product_material h6,
+.product_remark h6,
+.product_spec h6 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    line-height: 26px;
+    text-align: left;
+    color: #707070;
+    padding: 2px 20px;
+    border-radius: 30px;
+    border: 1px solid #707070;
+    width: fit-content;
+    margin: 0;
+}
+
+.product_size,
+.product_material,
+.product_remark,
+.product_spec {
+    margin: 5% 0;
+}
+
+.product_size:after,
+.product_material:after,
+.product_remark:after,
+.product_spec:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 20%;
+    border: 1px solid #DDDDDD;
+    margin-top: 5%;
+}
+
+.product-content-title {
+    border-top: 1px solid #DDDDDD;
+}
+
+.collapsible-toggle[aria-expanded=true] svg {
+    transform: none;
+}
+
+.collapsible-toggle[aria-expanded=true] svg.icon--minus {
+    display: block;
+}
+
+.collapsible-toggle[aria-expanded=false] svg.icon--minus {
+    display: none;
+}
+
+.collapsible-toggle[aria-expanded=true] svg.icon--plus {
+    display: none;
+}
+
+.collapsible-toggle[aria-expanded=false] svg.icon--plus {
+    display: block;
+}
+
+.product__thumbnail:after {
+    box-shadow: 0 0 0 2px #BEB3A4;
+    border-radius: 5px;
+}
+
+.rating__caption {
+    font-family: 'Jost', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #6f6f6f;
+}
+
+.heart-icon {
+    display: none;
+}
+
+.product-sticky-form__payment-container .loader-button__text:after {
+    display: none;
+}
+
+.product-sticky-form__payment-container button {
+    width: 130px;
+}

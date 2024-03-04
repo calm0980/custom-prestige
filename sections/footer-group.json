@@ -1,0 +1,136 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Group_18802.png",
+            "custom_icon_width": 45,
+            "title": "配送について",
+            "content": "<p>テキストが入ります。テキストが入ります。テキストが入ります。<\/p>"
+          }
+        },
+        "0d47d953-65fa-4b44-828a-0ab4b685aa1d": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Group_18805.png",
+            "custom_icon_width": 45,
+            "title": "返品について",
+            "content": "<p>テキストが入ります。テキストが入ります。テキストが入ります。<\/p>"
+          }
+        },
+        "a5ee821b-88c1-4fb9-b608-eedce325a410": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Group_18808.png",
+            "custom_icon_width": 45,
+            "title": "よくある質問",
+            "content": "<p>テキストが入ります。テキストが入ります。テキストが入ります。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-2",
+        "0d47d953-65fa-4b44-828a-0ab4b685aa1d",
+        "a5ee821b-88c1-4fb9-b608-eedce325a410"
+      ],
+      "settings": {
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4243d493-4b91-4eca-88d4-8c93932d3b1c": {
+      "type": "custom-social-media",
+      "settings": {
+        "background": "#f7f4ed",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "e9f8464f-5b4b-4ca6-9afa-5ee0dfae226f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/footer-logo.png",
+            "image_width": 80
+          }
+        },
+        "a6c287de-9861-48df-a932-275b324983b0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Mail magazine",
+            "content": "<p>キャンペーンや最新情報をお届けします<\/p>"
+          }
+        },
+        "b58e1b1e-8b40-4fb2-b125-4f8e8be30202": {
+          "type": "links",
+          "settings": {
+            "menu": "contents"
+          }
+        },
+        "85a2f135-d516-46d0-bad1-7e1737c21fcd": {
+          "type": "links",
+          "settings": {
+            "menu": "support"
+          }
+        },
+        "f2f7dfdf-fff0-49a1-8f8e-9f9c97efdc2f": {
+          "type": "payments",
+          "settings": {
+            "title": "Payments"
+          }
+        },
+        "06e63b0a-30bd-47f9-97bf-ca327c269dc6": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Mail magazine",
+            "content": "<p>キャンペーンや最新情報をお届けします<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e9f8464f-5b4b-4ca6-9afa-5ee0dfae226f",
+        "a6c287de-9861-48df-a932-275b324983b0",
+        "b58e1b1e-8b40-4fb2-b125-4f8e8be30202",
+        "85a2f135-d516-46d0-bad1-7e1737c21fcd",
+        "f2f7dfdf-fff0-49a1-8f8e-9f9c97efdc2f",
+        "06e63b0a-30bd-47f9-97bf-ca327c269dc6"
+      ],
+      "settings": {
+        "show_payment_icons": true,
+        "enable_follow_on_shop": true,
+        "show_country_selector": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "4243d493-4b91-4eca-88d4-8c93932d3b1c",
+    "newsletter",
+    "footer"
+  ]
+}

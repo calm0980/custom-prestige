@@ -1,0 +1,270 @@
+{%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
+  {%- assign blends_with_background = false -%}
+{%- else -%}
+  {%- assign blends_with_background = true -%}
+{%- endif -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
+      {%- assign section_background = settings.background -%}
+    {%- else -%}
+      {%- assign section_background = section.settings.background -%}
+    {%- endif -%}
+
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.text_color -%}
+      {%- assign text_color = section.settings.text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+    --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+    --prev-next-button-background: {{ settings.background.red }}, {{ settings.background.green }}, {{ settings.background.blue }};
+    --prev-next-button-color: {{ settings.text_color.red }}, {{ settings.text_color.green }}, {{ settings.text_color.blue }};
+
+    --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
+  }
+
+  {%- if section.settings.title == blank and section.settings.subheading == blank and section.settings.content == blank -%}
+    #shopify-section-{{ section.id }} {
+      --vertical-breather: 40px; /* Only on multi-column section, due to its specific usage we reduce spacing when no content */
+    }
+
+    {%- if blends_with_background or section.settings.mobile_item_size == 'small' -%}
+      /* Reduce the margin on small devices to create a slightly better layout */
+      @media screen and (max-width: 999px) {
+        #shopify-section-{{ section.id }} {
+          --vertical-breather: var(--container-gutter);
+        }
+      }
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- for block in section.blocks -%}
+    {%- if block.settings.image_border != 'rgba(0,0,0,0)' -%}
+      #block-{{ section.id }}-{{ block.id }} .multi-column__image-wrapper {
+        border: 1px solid {{ block.settings.image_border }};
+      }
+    {%- endif -%}
+  {%- endfor -%}
+</style>
+
+<section class="section {% unless blends_with_background %}section--flush{% endunless %}">
+  <div class="section__color-wrapper">
+    <div class="container {% unless blends_with_background %}vertical-breather{% endunless %}">
+      
+      
+      {%- assign active_accounts = 0 -%}
+        {%- capture social_media -%}
+          {%- if settings.social_instagram != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--instagram">
+              <a href="{{ settings.social_instagram | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Instagram' }}">
+                {%- render 'icon' with 'instagram' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_line != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--line">
+              <a href="{{ settings.social_line | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'LINE' }}">
+                {%- render 'icon' with 'line' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_tiktok != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--tiktok">
+              <a href="{{ settings.social_tiktok | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'TikTok' }}">
+                {%- render 'icon' with 'tiktok' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_youtube != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--youtube">
+              <a href="{{ settings.social_youtube | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'YouTube' }}">
+                {%- render 'icon' with 'youtube' -%}
+              </a>
+            </li>
+          {%- endif -%}
+          
+          {%- if settings.social_facebook != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--facebook">
+              <a href="{{ settings.social_facebook | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Facebook' }}">
+                {%- render 'icon' with 'facebook' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_twitter != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--twitter">
+              <a href="{{ settings.social_twitter | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Twitter' }}">
+                {%- render 'icon' with 'twitter' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_threads != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--threads">
+              <a href="{{ settings.social_threads | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Threads' }}">
+                {%- render 'icon' with 'threads' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          
+
+          {%- if settings.social_pinterest != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--pinterest">
+              <a href="{{ settings.social_pinterest | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Pinterest' }}">
+                {%- render 'icon' with 'pinterest' -%}
+              </a>
+            </li>
+          {%- endif -%}
+       
+
+          {%- if settings.social_vimeo != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--vimeo">
+              <a href="{{ settings.social_vimeo | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Vimeo' }}">
+                {%- render 'icon' with 'vimeo' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_linkedin != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--linkedin">
+              <a href="{{ settings.social_linkedin | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'LinkedIn' }}">
+                {%- render 'icon' with 'linkedin' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_snapchat != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--snapchat">
+              <a href="{{ settings.social_snapchat | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Snapchat' }}">
+                {%- render 'icon' with 'snapchat' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_tumblr != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--tumblr">
+              <a href="{{ settings.social_tumblr | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Tumblr' }}">
+                {%- render 'icon' with 'tumblr' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_fancy != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--fancy">
+              <a href="{{ settings.social_fancy | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Fancy' }}">
+                {%- render 'icon' with 'fancy' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_wechat != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--wechat">
+              <a href="{{ settings.social_wechat | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'WeChat' }}">
+                {%- render 'icon' with 'wechat' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if settings.social_reddit != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class="social-media__item--reddit">
+              <a href="{{ settings.social_reddit | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Reddit' }}">
+                {%- render 'icon' with 'reddit' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+          
+
+          {%- if settings.social_spotify != blank -%}
+            {%- assign active_accounts = active_accounts | plus: 1 -%}
+
+            <li class=" social-media__item--spotify">
+              <a href="{{ settings.social_spotify | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Spotify' }}">
+                {%- render 'icon' with 'spotify' -%}
+              </a>
+            </li>
+          {%- endif -%}
+
+        {%- endcapture -%}
+        
+
+        {%- if social_media != blank -%}
+          <ul class="social-media {% if active_accounts > 3 %}social-media--no-radius{% endif %} list--unstyled" role="list">
+            {{ social_media }}
+          </ul>
+        {%- endif -%}
+      
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom social media",
+  "class": "shopify-section--custom-social-media",
+  
+  "settings": [
+    
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Social Media"
+    }
+  ]
+}
+{% endschema %}
